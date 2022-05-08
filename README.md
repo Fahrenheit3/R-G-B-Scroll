@@ -6,4 +6,4 @@ BUT
 It contains Jquery library and AJAX framework.
 Which is the first time i used them.
 
-So it makes this project was really an informative one for me with jquery errors and unexpected outputs.
+So this project was a really informative one for me. Because of jquery/ajax errors and unexpected outputs.
