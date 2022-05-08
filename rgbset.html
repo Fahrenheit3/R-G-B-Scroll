@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="rgbset.css" />
+    <title>Title</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="rgb-showing-div" id="back-ground" style="color:black"> R G B</div>
+    <div class="rgb-values" id="rgb-values-id"> 255 255 255</div>
+    <div>
+        <input oninput="scrollInput1()" class="red-scroll" type="range" id="slideRed" name="slideRed" value="255" min="0" max="255">
+        <div class="red-range" id="red-range-value"> 255 </div>
+        <input oninput="scrollInput2()" type="range" id="slideGreen" name="slidegreen" value="255" min="0" max="255">
+        <div class="green-range" id="green-range-value"> 255</div>
+        <input oninput="scrollInput3()" type="range" id="slideBlu" name="slideblu" value="255" min="0" max="255">
+        <div class="blu-range" id="blu-range-value"> 255</div>
+
+    </div>
+
+    <script script src="rgbset.js"></script>
+</body>
+
+</html>
